@@ -1,0 +1,28 @@
+interface Title_MenuType {
+    id: number
+    title: string
+}
+
+
+export const title_menu: Array<Title_MenuType> = [
+    {
+        id: 1,
+        title: "Inbox Lincode"
+    },
+    {
+        id: 2,
+        title: "Написать письмо"
+    },
+    {
+        id: 3,
+        title: "Все письма"
+    },
+    {
+        id: 4,
+        title: "Спам"
+    },
+    {
+        id: 5,
+        title: "Подробнее о Lincode"
+    }
+]
